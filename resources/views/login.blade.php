@@ -57,7 +57,7 @@
 
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-7 col-md-7 col-sm-12 col-12">
-                        <form class="bg-white rounded p-4">
+                        <form class="bg-white rounded p-4" action="{{ url('home') }}">
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="form-group mb-4">
@@ -67,17 +67,17 @@
 
                                     <div class="form-group position-relative mb-3">
                                         <label for="email">Email atau Nomor Handphone</label>
-                                        <input type="text" class="form-control lg form-ico border rounded"
-                                            placeholder="Masukkan Email/No Handphone" />
+                                        <input id="email" type="text" class="form-control lg form-ico border rounded"
+                                            placeholder="Masukkan Email/No Handphone" required/>
                                     </div>
                                     <div class="form-group position-relative mb-3">
                                         <label for="password">Password</label>
-                                        <input type="text" class="form-control lg form-ico rounded"
-                                            placeholder="Masukkan Password" />
+                                        <input id="password" type="password" class="form-control lg form-ico rounded"
+                                            placeholder="Masukkan Password" required/>
                                     </div>
                                     <div class="form-group position-relative">
                                         <button class="btn full-width custom-height-lg theme-bg text-white fs-md"
-                                            type="button">Masuk</button>
+                                            type="submit">Masuk</button>
                                     </div>
                                     <p>Belum memiliki akun? <a href="{{ url('daftar') }}">Daftar Sekarang</a></p>
                                 </div>
@@ -115,9 +115,18 @@
     <!-- ============================================================== -->
     <!-- This page plugins -->
     <!-- ============================================================== -->
-
+    <script>
+        // Custom invalid message
+      $('#email, #password').on('invalid', function() {
+        this.setCustomValidity(''); // Reset custom message
+        if (!this.validity.valid) {
+          if (this.id === 'email') {
+            this.setCustomValidity('Email tidak boleh kosong.');
+          } else if (this.id === 'password') {
+            this.setCustomValidity('Password tidak boleh kosong.');
+          }
+        }
+      });
+    </script>
 </body>
-
-<!-- Mirrored from shreethemes.net/workplex-demo/workplex/home-8.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 May 2024 03:49:48 GMT -->
-
 </html>
