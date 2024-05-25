@@ -9,9 +9,9 @@
 	<meta name="author" content="DexignZone" /> 
     <meta name="keywords" content="" /> 
     <meta name="robots" content="" /> 
-	<meta name="description" content="Jobie - Job Portal Mobile App Template ( Bootstrap 5 + PWA )"/>
-	<meta property="og:title" content="Jobie - Job Portal Mobile App Template ( Bootstrap 5 + PWA )" />
-	<meta property="og:description" content="Jobie - Job Portal Mobile App Template ( Bootstrap 5 + PWA )" />
+	<meta name="description" content="#"/>
+	<meta property="og:title" content="#" />
+	<meta property="og:description" content="#" />
 	<meta property="og:image" content="social-image.png"/>
 	<meta name="format-detection" content="telephone=no">
     
@@ -22,7 +22,7 @@
 	<title>Lendana</title>
 	
 	<!-- PWA Version -->
-	<link rel="manifest" href="manifest.json">
+	{{-- <link rel="manifest" href="manifest.json"> --}}
     
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/pwa/css/style.css') }}">
@@ -49,9 +49,9 @@
 					<div class="mid-content">
 					</div>
 					<div class="right-content">
-                        <a href="javascript:void(0);" class="theme-color" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
+                        {{-- <a href="javascript:void(0);" class="theme-color" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
                             <svg class="color-plate" enable-background="new 0 0 512.214 512.214" height="24" viewBox="0 0 512.214 512.214" width="24" xmlns="http://www.w3.org/2000/svg"><g id="Color_Palette_1_"><g><path d="m247.523 512.214c-1.552 0-3.111-.04-4.68-.12-18.018-.919-36.245-3.725-54.178-8.339-92.826-23.89-161.982-96.467-182.181-189.601-9.88-45.557-8.432-90.341 4.304-133.109 23.822-80.001 86.489-145.327 170.276-170.276 42.766-12.735 87.55-14.183 133.108-4.303 93.122 20.195 165.672 89.343 189.565 182.18 4.615 17.933 7.421 36.161 8.339 54.177 1.854 36.362-17.939 68.259-51.657 83.242-34.298 15.243-73.443 8.112-99.723-18.167-15.537-15.538-37.242-15.538-52.779 0-15.611 15.597-15.676 37.153-.007 52.811.003.002.004.004.006.006 26.278 26.278 33.41 65.42 18.168 99.721-14.337 32.263-44.159 51.778-78.561 51.778zm7.237-472.209c-57.565 0-111.211 21.694-152.127 62.61-52.797 52.797-73.594 126.81-57.058 203.062 16.995 78.361 75.644 139.417 153.059 159.341 15.342 3.948 30.9 6.347 46.245 7.129 19.745 1.012 36.427-9.444 44.651-27.953 6.736-15.161 7.675-37.622-9.898-55.194-31.279-31.26-31.212-78.199.007-109.391 31.161-31.163 78.172-31.165 109.343.006 17.572 17.573 40.033 16.634 55.194 9.898 18.509-8.225 28.959-24.917 27.953-44.652-.782-15.344-3.181-30.902-7.13-46.244-23.476-91.222-104.657-158.612-210.239-158.612z"/></g><g><path d="m156.197 396.178c-33.084 0-60-26.916-60-60s26.916-60 60-60 60 26.916 60 60-26.916 60-60 60zm0-80c-11.028 0-20 8.972-20 20s8.972 20 20 20 20-8.972 20-20-8.972-20-20-20z"/></g><g><path d="m156.197 236.179c-33.084 0-60-26.916-60-60s26.916-60 60-60 60 26.916 60 60-26.916 60-60 60zm0-80c-11.028 0-20 8.972-20 20s8.972 20 20 20 20-8.972 20-20-8.972-20-20-20z"/></g><g><path d="m316.197 216.179c-33.084 0-60-26.916-60-60s26.916-60 60-60 60 26.916 60 60-26.916 60-60 60zm0-80c-11.028 0-20 8.972-20 20s8.972 20 20 20 20-8.972 20-20-8.972-20-20-20z"/></g></g></svg>
-                        </a>
+                        </a> --}}
                         <a href="javascript:void(0);" class="theme-btn">
                             <svg class="dark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"   stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
@@ -78,8 +78,8 @@
 				<img src="assets/pwa/images/author/pic1.png" class="rounded-circle" alt="author-image">
 			</div>
 			<div class="dz-info">
-				<span>Good Morning</span>
-				<h5 class="name">Henry Kanwil</h5>
+				<span>Selamat Datang, </span>
+				<h5 class="name">Test User</h5>
 			</div>
 		</div>
 		<ul class="nav navbar-nav">	
@@ -238,8 +238,8 @@
 	<div class="banner-wrapper author-notification">
 		<div class="container inner-wrapper">
 			<div class="dz-info">
-				<span>Good Morning</span>
-				<h2 class="name mb-0">Henry Kanwil</h2>
+				<span>Selamat Datang, </span>
+				<h2 class="name mb-0">Test User</h2>
 			</div>
 			<div class="dz-media media-45 rounded-circle">
 				<a href="profile.html"><img src="assets/pwa/images/author/pic1.png" class="rounded-circle" alt="author-image"></a>
@@ -254,7 +254,7 @@
         <div class="content-inner pt-0">
 			<div class="container fb">
                 <!-- Search -->
-                <form class="m-b30">
+                {{-- <form class="m-b30">
                     <div class="input-group">
                         <span class="input-group-text"> 
                             <a href="javascript:void(0);" class="search-icon">
@@ -265,10 +265,20 @@
                         </span>
                         <input type="text" placeholder="Search job here..." class="form-control ps-0 bs-0">
                     </div>
-                </form>
+                </form> --}}
+
                 
                 <!-- Dashboard Area -->
-                <div class="dashboard-area">
+                <div class="dashboard-area m-t40">
+
+                    
+                <div class="alert alert-info solid alert-dismissible fade show">
+                    <i class="fa fa-exclamation-triangle"></i>
+                    Lengkapi Profilmu terlebih dahulu <a href="#">Di sini</a>
+                    <button class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
 					<!-- Features -->
                     <div class="features-box">
                         <div class="row m-b20 g-3">
@@ -603,77 +613,8 @@
 	</div>
 	<!-- Menubar -->
 	
-	<!-- Theme Color Settings -->
-	<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom">
-        <div class="offcanvas-body small">
-            <ul class="theme-color-settings">
-                <li>
-                    <input class="filled-in" id="primary_color_8" name="theme_color" type="radio" value="color-primary" />
-					<label for="primary_color_8"></label>
-                    <span>Default</span>
-                </li>
-                <li>
-					<input class="filled-in" id="primary_color_2" name="theme_color" type="radio" value="color-green" />
-					<label for="primary_color_2"></label>
-                    <span>Green</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_3" name="theme_color" type="radio" value="color-blue" />
-					<label for="primary_color_3"></label>
-                    <span>Blue</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_4" name="theme_color" type="radio" value="color-pink" />
-					<label for="primary_color_4"></label>
-                    <span>Pink</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_5" name="theme_color" type="radio" value="color-yellow" />
-					<label for="primary_color_5"></label>
-                    <span>Yellow</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_6" name="theme_color" type="radio" value="color-orange" />
-					<label for="primary_color_6"></label>
-                    <span>Orange</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_7" name="theme_color" type="radio" value="color-purple" />
-					<label for="primary_color_7"></label>
-                    <span>Purple</span>
-                </li>
-                <li>
-					<input class="filled-in" id="primary_color_1" name="theme_color" type="radio" value="color-red" />
-					<label for="primary_color_1"></label>
-                    <span>Red</span>
-                </li>
-                <li>
-					<input class="filled-in" id="primary_color_9" name="theme_color" type="radio" value="color-lightblue" />
-					<label for="primary_color_9"></label>
-                    <span>Lightblue</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_10" name="theme_color" type="radio" value="color-teal" />
-					<label for="primary_color_10"></label>
-                    <span>Teal</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_11" name="theme_color" type="radio" value="color-lime" />
-					<label for="primary_color_11"></label>
-                    <span>Lime</span>
-                </li>
-                <li>
-                    <input class="filled-in" id="primary_color_12" name="theme_color" type="radio" value="color-deeporange" />
-					<label for="primary_color_12"></label>
-                    <span>Deeporange</span>
-                </li>
-            </ul>
-        </div>
-    </div>
-	<!-- Theme Color Settings End -->
-	
 	<!-- PWA Offcanvas -->
-	<div class="offcanvas offcanvas-bottom pwa-offcanvas">
+	{{-- <div class="offcanvas offcanvas-bottom pwa-offcanvas">
 		<div class="container">
 			<div class="offcanvas-body small">
 				<img class="logo" src="assets/pwa/images/icon.png" alt="">
@@ -684,20 +625,20 @@
 			</div>
 		</div>
 	</div>
-	<div class="offcanvas-backdrop pwa-backdrop"></div>
+	<div class="offcanvas-backdrop pwa-backdrop"></div> --}}
 	<!-- PWA Offcanvas End -->
 	
 </div>  
 <!--**********************************
     Scripts
 ***********************************-->
-<script src="{{ asset('index.js') }}" defer></script>
-<script src="{{ asset('assets/pwa/js/jquery.js') }}"></script>
-<script src="{{ asset('assets/pwa/js/jquery.js') }}"></script>
-<script src="{{ asset('assets/pwa/js/jquery.js') }}"></script>
-<script src="{{ asset('assets/pwa/js/jquery.js') }}"></script>
-<script src="{{ asset('assets/pwa/js/jquery.js') }}"></script>
-<script src="{{ asset('assets/pwa/js/jquery.js') }}"></script>
+<script src="index.js" defer></script>
+<script src="assets/pwa/js/jquery.js"></script>
+<script src="assets/pwa/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/pwa/js/settings.js"></script>
+<script src="assets/pwa/js/custom.js"></script>
+<script src="assets/pwa/js/dz.carousel.js"></script><!-- Swiper -->
+<script src="assets/pwa/vendor/swiper/swiper-bundle.min.js"></script><!-- Swiper -->
 </body>
 
 <!-- Mirrored from jobie.dexignzone.com/mobile-app/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 May 2024 16:37:43 GMT -->

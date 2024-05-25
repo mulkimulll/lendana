@@ -10,14 +10,15 @@
 
     <!-- Custom CSS -->
     <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
-		<style>
-			.home-banner {
+    <style>
+        /* .home-banner {
 				overflow: hidden;
-			}
-      .password-toggle {
-        cursor: pointer;
-      }
-		</style>
+			} */
+        .password-toggle {
+            cursor: pointer;
+        }
+
+    </style>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
-    <div class="preloader"></div>
+    {{-- <div class="preloader"></div> --}}
 
     <!-- ============================================================== -->
     <!-- Main wrapper - style you can find in pages.scss -->
@@ -74,22 +75,26 @@
                                             placeholder="Masukkan Nomor induk kependudukan" />
                                     </div>
                                     <div class="form-group position-relative mb-3">
-                                      <label class="text"><strong>No handphone</strong></label>
-                                      <input type="text" class="form-control lg form-ico border rounded" placeholder="Contoh: 08XXXXXXXXX">
+                                        <label class="text"><strong>No handphone</strong></label>
+                                        <input type="text" class="form-control lg form-ico border rounded"
+                                            placeholder="Contoh: 08XXXXXXXXX">
                                     </div>
                                     <div class="form-group position-relative mb-3">
-                                      <label class="text"><strong>Email</strong></label>
-                                      <input type="email" class="form-control lg form-ico border rounded" placeholder="Masukkan email">
+                                        <label class="text"><strong>Email</strong></label>
+                                        <input type="email" class="form-control lg form-ico border rounded"
+                                            placeholder="Masukkan email">
                                     </div>
                                     <div class="form-group position-relative mb-3">
-                                      <label class="text"><strong>Password</strong></label>
-                                      <input type="password" class="form-control lg form-ico border rounded" placeholder="Masukkan password">
+                                        <label class="text"><strong>Password</strong></label>
+                                        <input type="password" class="form-control lg form-ico border rounded"
+                                            placeholder="Masukkan password">
                                     </div>
                                     <div class="form-group position-relative">
                                         <button class="btn full-width custom-height-lg theme-bg text-white fs-md"
                                             type="button">Daftar Sekarang</button>
                                     </div>
-                                    <p>Sudah memiliki akun? <a style="color: #6d8fd4" href="{{ url('/login') }}">Login</a></p>
+                                    <p>Sudah memiliki akun? <a style="color: #6d8fd4"
+                                            href="{{ url('/login') }}">Login</a></p>
                                 </div>
                             </div>
                         </form>
