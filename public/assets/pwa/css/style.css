@@ -13949,7 +13949,8 @@ button {
   padding-bottom: 0.5rem; }
 
 .head-details {
-  background-color: #21085B;
+  /* background-color: #21085B; */
+  background: linear-gradient(to right, #003f7e, #4aa3cb);
   padding-top: 20px;
   padding-bottom: 50px;
   margin-bottom: -30px; }

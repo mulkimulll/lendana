@@ -59,7 +59,7 @@
                 <h2 class="name mb-0">Test User</h2>
             </div>
             <div class="dz-media media-45 rounded-circle">
-                <a href="{{ url('profile') }}"><img src="assets/pwa/images/author/pic1.png" class="rounded-circle"
+                <a href="{{ url('profile/index') }}"><img src="assets/pwa/images/author/pic1.png" class="rounded-circle"
                         alt="author-image"></a>
             </div>
         </div>
@@ -378,3 +378,5 @@
     </div>
     <!-- Page Content End-->
 @endsection
+
+@include('layouts.menu_bar')

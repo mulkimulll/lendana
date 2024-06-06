@@ -49,7 +49,7 @@
         @yield('content')
 
         <!-- Menubar -->
-        @include('layouts.menu_bar')
+        {{-- @include('layouts.menu_bar') --}}
         <!-- Menubar -->
 
         <!-- PWA Offcanvas -->
