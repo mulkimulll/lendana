@@ -17,6 +17,9 @@
         .password-toggle {
             cursor: pointer;
         }
+        .body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
     </style>
 </head>

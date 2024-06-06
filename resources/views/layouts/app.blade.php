@@ -26,6 +26,8 @@
     {{-- <link rel="manifest" href="manifest.json"> --}}
 
     <!-- Stylesheets -->
+    
+    <link href="{{ asset('assets/pwa/vendor/imageuplodify/imageuploadify.min.css') }}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/pwa/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/pwa/vendor/swiper/swiper-bundle.min.css') }}">
 
@@ -69,15 +71,15 @@
     <!--**********************************
     Scripts
 ***********************************-->
-    <script src="index.js" defer></script>
-    <script src="assets/pwa/js/jquery.js"></script>
-    <script src="assets/pwa/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/pwa/js/settings.js"></script>
-    <script src="assets/pwa/js/custom.js"></script>
-    <script src="assets/pwa/js/dz.carousel.js"></script><!-- Swiper -->
-    <script src="assets/pwa/vendor/swiper/swiper-bundle.min.js"></script><!-- Swiper -->
+    <script src="{{ asset('index.js') }}" defer></script>
+    <script src="{{asset('assets/pwa/js/jquery.js')}}"></script>
+    <script src="{{asset('assets/pwa/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('assets/pwa/js/settings.js')}}"></script>
+    <script src="{{asset('assets/pwa/js/custom.js')}}"></script>
+    <script src="{{asset('assets/pwa/js/dz.carousel.js')}}"></script>
+    <script src="{{asset('assets/pwa/vendor/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/pwa/vendor/imageuplodify/imageuploadify.min.js') }}"></script>
+    @yield('js')
 </body>
-
-<!-- Mirrored from jobie.dexignzone.com/mobile-app/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 May 2024 16:37:43 GMT -->
 
 </html>

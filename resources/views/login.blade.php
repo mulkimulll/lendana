@@ -13,6 +13,7 @@
 		<style>
 			.home-banner {
 				overflow: hidden;
+                font-family: Arial, Helvetica, sans-serif;
 			}
 		</style>
 </head>
@@ -67,12 +68,12 @@
 
                                     <div class="form-group position-relative mb-3">
                                         <label for="email">Email atau Nomor Handphone</label>
-                                        <input id="email" type="text" class="form-control lg form-ico border rounded"
+                                        <input id="email" type="text" value="usertest@gmail.com" class="form-control lg form-ico border rounded"
                                             placeholder="Masukkan Email/No Handphone" required/>
                                     </div>
                                     <div class="form-group position-relative mb-3">
                                         <label for="password">Password</label>
-                                        <input id="password" type="password" class="form-control lg form-ico rounded"
+                                        <input id="password" value="12345678" type="password" class="form-control lg form-ico rounded"
                                             placeholder="Masukkan Password" required/>
                                     </div>
                                     <div class="form-group position-relative">

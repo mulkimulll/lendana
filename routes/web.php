@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::get('/daftar', function () {
     return view('register');
 });
@@ -25,6 +29,14 @@ Route::get('/home', function () {
     return view('home.index');
 });
 
-Route::get('/profile', function () {
-    return view('profil.index');
+Route::prefix('profile')->group(function () {
+    Route::get('/index', function () {
+        return view('profil.index');
+    });
+    Route::get('/form_bio', function () {
+        return view('profil.form_bio');
+    });
+
+    
+    
 });

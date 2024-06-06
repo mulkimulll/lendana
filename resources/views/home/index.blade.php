@@ -92,7 +92,7 @@
 
                     <div class="alert alert-info solid alert-dismissible fade show">
                         <i class="fa fa-exclamation-triangle"></i>
-                        Lengkapi Profilmu terlebih dahulu <a href="#">Di sini</a>
+                        Lengkapi Profilmu terlebih dahulu <a href="{{ url('profile/form_bio') }}">Di sini</a>
                         <button class="btn-close" data-bs-dismiss="alert" aria-label="btn-close">
                             <i class="fa-solid fa-xmark"></i>
                         </button>
